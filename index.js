@@ -14,6 +14,7 @@ module.exports = function( config ){
 		replacer 	= new Transform(),
 		plugin		= new Transform( { objectMode: true } ),
 		
+		// This is based on r.js code by James Burke
 		replace = function( contents, config ){
 			return String( contents ).replace( HAS_REGEX, function( match, test ){
 				if( config.hasOwnProperty( test ) ){
@@ -29,6 +30,7 @@ module.exports = function( config ){
 	}
 	
 	replacer._transform = function( chunk, encoding, done ){
+		// Pass the transformed chunk along
 		this.push( replace( chunk, config ) );
 		
 		done();
