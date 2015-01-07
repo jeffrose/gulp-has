@@ -3,7 +3,6 @@
  * @license Apache-2.0
  */
 module.exports = function( config ){
-
 	const
 		PLUGIN_NAME	= 'gulp-has',
 		HAS_REGEX	=  /has\s*\(\s*['"]([^'"]+)['"]\s*\)/g;
@@ -49,7 +48,7 @@ module.exports = function( config ){
 		// Pass the file to the next gulp plugin
 		this.push( file );
 
-		return done();
+		done();
 	};
 	
 	return plugin;
