@@ -8,9 +8,11 @@
     "author": "Jeff Rose",
     "license": "Apache-2.0",
     "keywords": [
+        "feature detection",
         "gulpplugin",
         "has",
         "has.js",
+        "modernizr",
         "uglify-js"
     ],
     "main": "index.js",
