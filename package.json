@@ -1,7 +1,7 @@
 {
     "name": "gulp-has",
     "description": "Optimize code paths using has API feature detection.",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "repository": "https://github.com/jeffrose/gulp-has.git",
     "homepage": "https://github.com/jeffrose/gulp-has",
     "bugs": "https://github.com/jeffrose/gulp-has/issues",
