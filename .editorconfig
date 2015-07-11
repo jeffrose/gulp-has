@@ -9,5 +9,6 @@ trim_trailing_whitespace = true
 
 # Non-library JavaScript files
 [index.js,gulpfile.js,test/test.js]
-indent_style = tab
+indent_style = space
+indent_size = 4
 insert_final_newline = true
