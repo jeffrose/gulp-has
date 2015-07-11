@@ -1,7 +1,7 @@
 gulp-has
 ========
 
-> Optimize code paths for has API feature detection.
+> Optimize code paths using has API feature detection.
 
 ## Installation
 
@@ -61,4 +61,21 @@ The `compress` task would transform it into something like this:
 
 ```javascript
 var o = Object.create( null );
+```
+
+## has API
+
+The `has` API was introduced by [has.js](phiggins42/has.js) as a convention for doing feature detection; however you don't need to use `has.js` to take advantage of `gulp-has`.
+
+```javascript
+// A small adapter for Modernizr
+function has( id ){
+    return Modernizr[ id ];
+}
+
+if( has( 'canvas' ) ){
+    console.log( 'This browser supports canvas.' );
+} else {
+    console.log( 'No canvas.' );
+}
 ```
