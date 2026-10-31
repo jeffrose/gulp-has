@@ -7,7 +7,7 @@
  *     import has from 'gulp-has';
  *
  * @see {@link https://github.com/jeffrose/gulp-has}
- * @license Apache-2.0
+ * @license MIT
  */
 
 import has from './index.js';

@@ -32,7 +32,7 @@
  *     missing from `config` with `false` instead of leaving them untouched.
  * @returns {Stream} The plugin stream.
  * @throws {PluginError} When the has configuration is not provided.
- * @license Apache-2.0
+ * @license MIT
  */
 
 const PLUGIN_NAME = 'gulp-has';

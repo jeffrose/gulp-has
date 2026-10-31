@@ -161,4 +161,4 @@ npm run coverage  # run the test suite with coverage (c8)
 
 ## License
 
-[Apache-2.0](./LICENSE)
+[MIT](./LICENSE)
